@@ -1,0 +1,5 @@
+VGND 120 -29 m1
+VPWR 120 1850 m1
+Emitter 660 1010 m1
+Base 310 1372 m1
+Collector 146 1524 m1

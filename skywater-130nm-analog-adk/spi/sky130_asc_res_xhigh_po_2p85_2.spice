@@ -1,0 +1,7 @@
+* NGSPICE file created from sky130_asc_res_xhigh_po_2p85_2.ext - technology: sky130A
+
+.subckt sky130_asc_res_xhigh_po_2p85_2 Rin Rout VPWR VGND
+X0 Rout a_2723_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=1.075e+07u
+X1 Rin a_2723_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=1.075e+07u
+.ends
+

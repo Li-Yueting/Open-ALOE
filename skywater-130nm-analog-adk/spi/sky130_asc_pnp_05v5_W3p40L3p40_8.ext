@@ -1,0 +1,33 @@
+timestamp 1653552124
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pnp_05v5 a2=area
+port "VGND" 5 120 -30 180 30 m1
+port "VPWR" 4 120 1850 180 1910 m1
+port "Emitter" 1 660 1010 900 1140 m1
+port "Base" 2 310 1372 550 1412 m1
+port "Collector" 3 146 1524 386 1564 m1
+node "VGND" 2298 8733.52 120 -30 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 643200 21560 1286400 21680 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 2298 12448.5 120 1850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 643200 21560 1286400 21680 0 0 0 0 0 0 0 0 0 0
+node "xm1/Emitter" 6289 5086.48 450 600 pdif 0 0 0 0 0 0 0 0 0 0 3699200 21760 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3853088 22208 6115104 21208 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Emitter" "Emitter"
+node "xm1/Base" 151 23210.5 273 423 pnp 0 0 0 0 0 0 0 0 2050560 56960 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2050560 56960 723800 20820 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Base" "Base"
+substrate "xm1/Collector" 0 0 146 296 ppd 0 0 0 0 0 0 0 0 0 0 4305216 58664 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4235584 58792 746760 21476 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Collector" "Collector"
+cap "VPWR" "xm1/Base" 1595.09
+cap "xm1/Emitter" "xm1/Base" 17866.3
+cap "VGND" "xm1/Base" 936.992
+cap "xm1/Emitter" "VPWR" 918.464
+cap "xm1/Emitter" "VGND" 918.464
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 9653 423 9654 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 8313 423 8314 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 6973 423 6974 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 5633 423 5634 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 4293 423 4294 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 2953 423 2954 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 1613 423 1614 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 273 423 274 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0

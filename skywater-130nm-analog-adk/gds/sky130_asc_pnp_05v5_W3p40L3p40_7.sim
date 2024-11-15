@@ -1,0 +1,29 @@
+| units: 1 tech: sky130A format: MIT
+x Base Emitter Collector l=0 w=0 x=2.1465e+09 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=2.8165e+09 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=1.365e+08 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=1.4765e+09 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=8.065e+08 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=4.1565e+09 y=2.115e+08 sky130_fd_pr__pnp_05v5
+x Base Emitter Collector l=0 w=0 x=3.4865e+09 y=2.115e+08 sky130_fd_pr__pnp_05v5
+= Emitter xm1/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Emitter
+= Emitter sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Emitter
+= Base xm1/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Base
+= Base sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Base
+= Collector xm1/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector
+= Collector sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector

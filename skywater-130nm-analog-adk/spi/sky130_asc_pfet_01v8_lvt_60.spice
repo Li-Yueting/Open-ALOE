@@ -1,0 +1,65 @@
+* NGSPICE file created from sky130_asc_pfet_01v8_lvt_60.ext - technology: sky130A
+
+.subckt sky130_asc_pfet_01v8_lvt_60 GATE SOURCE DRAIN VGND VPWR
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=5.6115e+13p pd=4.044e+08u as=5.79855e+13p ps=4.1788e+08u w=6.45e+06u l=2e+06u
+X1 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X2 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X3 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X4 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X5 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X6 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X7 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X8 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X9 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X10 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X11 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X12 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X13 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X14 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X15 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X16 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X17 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X18 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X19 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X20 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X21 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X22 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X23 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X24 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X25 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X26 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X27 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X28 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X29 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X30 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X31 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X32 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X33 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X34 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X35 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X36 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X37 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X38 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X39 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X40 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X41 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X42 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X43 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X44 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X45 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X46 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X47 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X48 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X49 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X50 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X51 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X52 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X53 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X54 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X55 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X56 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X57 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X58 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X59 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+.ends
+

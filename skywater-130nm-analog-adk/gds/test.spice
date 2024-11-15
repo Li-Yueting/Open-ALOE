@@ -1,0 +1,12 @@
+* NGSPICE file created from sky130_asc_pnp_05v5_W3p40L3p40_7.ext - technology: sky130A
+
+.subckt sky130_asc_pnp_05v5_W3p40L3p40_7 Emitter Base Collector VPWR VGND
+X0 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X1 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X2 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X3 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X4 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X5 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X6 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+.ends
+

@@ -1,0 +1,86 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1658609782
+<< nwell >>
+rect 130 293 718 1940
+<< pmoslvt >>
+rect 224 355 624 1645
+<< pdiff >>
+rect 166 1633 224 1645
+rect 166 367 178 1633
+rect 212 367 224 1633
+rect 166 355 224 367
+rect 624 1633 682 1645
+rect 624 367 636 1633
+rect 670 367 682 1633
+rect 624 355 682 367
+<< pdiffc >>
+rect 178 367 212 1633
+rect 636 367 670 1633
+<< poly >>
+rect 224 1645 624 1671
+rect 224 329 624 355
+rect 370 182 490 329
+rect 130 162 718 182
+rect 130 102 300 162
+rect 360 102 718 162
+rect 130 82 718 102
+<< polycont >>
+rect 300 102 360 162
+<< locali >>
+rect 130 1850 300 1910
+rect 360 1850 718 1910
+rect 130 1730 718 1790
+rect 635 1649 669 1730
+rect 178 1633 212 1649
+rect 177 367 178 372
+rect 635 1633 670 1649
+rect 635 1626 636 1633
+rect 177 351 212 367
+rect 636 351 670 367
+rect 177 270 211 351
+rect 130 210 718 270
+rect 130 102 300 162
+rect 360 102 718 162
+rect 130 -30 300 30
+rect 360 -30 718 30
+<< viali >>
+rect 300 1850 360 1910
+rect 178 367 212 1633
+rect 636 367 670 1633
+rect 300 -30 360 30
+<< metal1 >>
+rect 130 1910 718 1940
+rect 130 1850 300 1910
+rect 360 1850 718 1910
+rect 130 1820 718 1850
+rect 172 1633 218 1645
+rect 172 367 178 1633
+rect 212 367 218 1633
+rect 172 355 218 367
+rect 630 1633 676 1645
+rect 630 367 636 1633
+rect 670 367 676 1633
+rect 630 355 676 367
+rect 130 30 718 60
+rect 130 -30 300 30
+rect 360 -30 718 30
+rect 130 -60 718 -30
+<< labels >>
+flabel metal1 130 1850 190 1910 1 FreeSans 480 0 0 0 VPWR
+port 4 n power bidirectional
+flabel space 120 1850 180 1910 1 FreeSans 480 0 0 0 VPB
+flabel metal1 130 -30 190 30 1 FreeSans 480 0 0 0 VGND
+port 5 n ground bidirectional
+flabel locali 658 1730 718 1790 1 FreeSans 480 0 0 0 SOURCE
+port 2 n signal bidirectional
+flabel locali 658 210 718 270 1 FreeSans 480 0 0 0 DRAIN
+port 3 n signal bidirectional
+flabel locali 658 102 718 162 1 FreeSans 480 0 0 0 GATE
+port 1 n signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 926 1880
+string LEFclass CORE
+string LEFsite unitasc
+<< end >>

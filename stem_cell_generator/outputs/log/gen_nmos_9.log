@@ -1,0 +1,426 @@
+
+Magic 8.3 revision 315 - Compiled on Fri Jul  1 15:21:12 PDT 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.313-0-g8acddaf
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 0.000   ( 0.000,  0.000), ( 0.000,  0.000)
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+************************************
+4180 852
+by is : 426
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:  20.900 x -3.500  (-10.450,  0.000), ( 10.450, -3.500)
+lambda:   2090.00 x -350.00  (-1045.00,  0.00 ), ( 1045.00, -350.00)
+internal:   4180 x -700    ( -2090,  0    ), (  2090, -700  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.600   (-10.450,  2.750), ( 10.450,  3.350)  12.540    
+lambda:   2090.00 x 60.00   (-1045.00,  275.00), ( 1045.00,  335.00)  125400.00 
+internal:   4180 x 120     ( -2090,  550  ), (  2090,  670  )  501600    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.300   (-10.450,  2.900), ( 10.450,  3.200)  6.270     
+lambda:   2090.00 x 30.00   (-1045.00,  290.00), ( 1045.00,  320.00)  62700.00  
+internal:   4180 x 60      ( -2090,  580  ), (  2090,  640  )  250800    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-9.600,  2.900), (-9.300,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-960.00,  290.00), (-930.00,  320.00)  900.00    
+internal:     60 x 60      ( -1920,  580  ), ( -1860,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-7.600,  2.900), (-7.300,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-760.00,  290.00), (-730.00,  320.00)  900.00    
+internal:     60 x 60      ( -1520,  580  ), ( -1460,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-5.600,  2.900), (-5.300,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-560.00,  290.00), (-530.00,  320.00)  900.00    
+internal:     60 x 60      ( -1120,  580  ), ( -1060,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-3.600,  2.900), (-3.300,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-360.00,  290.00), (-330.00,  320.00)  900.00    
+internal:     60 x 60      (  -720,  580  ), (  -660,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-1.600,  2.900), (-1.300,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-160.00,  290.00), (-130.00,  320.00)  900.00    
+internal:     60 x 60      (  -320,  580  ), (  -260,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 0.400,  2.900), ( 0.700,  3.200)  0.090     
+lambda:    30.00 x 30.00   ( 40.00,  290.00), ( 70.00,  320.00)  900.00    
+internal:     60 x 60      (    80,  580  ), (   140,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 2.400,  2.900), ( 2.700,  3.200)  0.090     
+lambda:    30.00 x 30.00   ( 240.00,  290.00), ( 270.00,  320.00)  900.00    
+internal:     60 x 60      (   480,  580  ), (   540,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 4.400,  2.900), ( 4.700,  3.200)  0.090     
+lambda:    30.00 x 30.00   ( 440.00,  290.00), ( 470.00,  320.00)  900.00    
+internal:     60 x 60      (   880,  580  ), (   940,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 6.400,  2.900), ( 6.700,  3.200)  0.090     
+lambda:    30.00 x 30.00   ( 640.00,  290.00), ( 670.00,  320.00)  900.00    
+internal:     60 x 60      (  1280,  580  ), (  1340,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 8.400,  2.900), ( 8.700,  3.200)  0.090     
+lambda:    30.00 x 30.00   ( 840.00,  290.00), ( 870.00,  320.00)  900.00    
+internal:     60 x 60      (  1680,  580  ), (  1740,  640  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-10.450,  2.900), (-10.150,  3.200)  0.090     
+lambda:    30.00 x 30.00   (-1045.00,  290.00), (-1015.00,  320.00)  900.00    
+internal:     60 x 60      ( -2090,  580  ), ( -2030,  640  )  3600      
+Moving label "VPWR" from space to metal1 in cell (UNNAMED).
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.600   (-10.450, -3.950), ( 10.450, -3.350)  12.540    
+lambda:   2090.00 x 60.00   (-1045.00, -395.00), ( 1045.00, -335.00)  125400.00 
+internal:   4180 x 120     ( -2090, -790  ), (  2090, -670  )  501600    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.300   (-10.450, -3.800), ( 10.450, -3.500)  6.270     
+lambda:   2090.00 x 30.00   (-1045.00, -380.00), ( 1045.00, -350.00)  62700.00  
+internal:   4180 x 60      ( -2090, -760  ), (  2090, -700  )  250800    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-9.600, -3.800), (-9.300, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-960.00, -380.00), (-930.00, -350.00)  900.00    
+internal:     60 x 60      ( -1920, -760  ), ( -1860, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-7.600, -3.800), (-7.300, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-760.00, -380.00), (-730.00, -350.00)  900.00    
+internal:     60 x 60      ( -1520, -760  ), ( -1460, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-5.600, -3.800), (-5.300, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-560.00, -380.00), (-530.00, -350.00)  900.00    
+internal:     60 x 60      ( -1120, -760  ), ( -1060, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-3.600, -3.800), (-3.300, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-360.00, -380.00), (-330.00, -350.00)  900.00    
+internal:     60 x 60      (  -720, -760  ), (  -660, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-1.600, -3.800), (-1.300, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-160.00, -380.00), (-130.00, -350.00)  900.00    
+internal:     60 x 60      (  -320, -760  ), (  -260, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 0.400, -3.800), ( 0.700, -3.500)  0.090     
+lambda:    30.00 x 30.00   ( 40.00, -380.00), ( 70.00, -350.00)  900.00    
+internal:     60 x 60      (    80, -760  ), (   140, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 2.400, -3.800), ( 2.700, -3.500)  0.090     
+lambda:    30.00 x 30.00   ( 240.00, -380.00), ( 270.00, -350.00)  900.00    
+internal:     60 x 60      (   480, -760  ), (   540, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 4.400, -3.800), ( 4.700, -3.500)  0.090     
+lambda:    30.00 x 30.00   ( 440.00, -380.00), ( 470.00, -350.00)  900.00    
+internal:     60 x 60      (   880, -760  ), (   940, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 6.400, -3.800), ( 6.700, -3.500)  0.090     
+lambda:    30.00 x 30.00   ( 640.00, -380.00), ( 670.00, -350.00)  900.00    
+internal:     60 x 60      (  1280, -760  ), (  1340, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 8.400, -3.800), ( 8.700, -3.500)  0.090     
+lambda:    30.00 x 30.00   ( 840.00, -380.00), ( 870.00, -350.00)  900.00    
+internal:     60 x 60      (  1680, -760  ), (  1740, -700  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-10.450, -3.800), (-10.150, -3.500)  0.090     
+lambda:    30.00 x 30.00   (-1045.00, -380.00), (-1015.00, -350.00)  900.00    
+internal:     60 x 60      ( -2090, -760  ), ( -2030, -700  )  3600      
+Moving label "VGND" from space to metal1 in cell (UNNAMED).
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.300   (-10.450,  2.300), ( 10.450,  2.600)  6.270     
+lambda:   2090.00 x 30.00   (-1045.00,  230.00), ( 1045.00,  260.00)  62700.00  
+internal:   4180 x 60      ( -2090,  460  ), (  2090,  520  )  250800    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 10.150,  2.300), ( 10.450,  2.600)  0.090     
+lambda:    30.00 x 30.00   ( 1015.00,  230.00), ( 1045.00,  260.00)  900.00    
+internal:     60 x 60      (  2030,  460  ), (  2090,  520  )  3600      
+Moving label "SOURCE" from space to locali in cell (UNNAMED).
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.300   (-10.450, -2.600), ( 10.450, -2.300)  6.270     
+lambda:   2090.00 x 30.00   (-1045.00, -260.00), ( 1045.00, -230.00)  62700.00  
+internal:   4180 x 60      ( -2090, -520  ), (  2090, -460  )  250800    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 10.150, -2.600), ( 10.450, -2.300)  0.090     
+lambda:    30.00 x 30.00   ( 1015.00, -260.00), ( 1045.00, -230.00)  900.00    
+internal:     60 x 60      (  2030, -520  ), (  2090, -460  )  3600      
+Moving label "DRAIN" from space to locali in cell (UNNAMED).
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.500   (-10.450, -3.180), ( 10.450, -2.680)  10.450    
+lambda:   2090.00 x 50.00   (-1045.00, -318.00), ( 1045.00, -268.00)  104500.00 
+internal:   4180 x 100     ( -2090, -636  ), (  2090, -536  )  418000    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 0.300   (-10.450, -3.080), ( 10.450, -2.780)  6.270     
+lambda:   2090.00 x 30.00   (-1045.00, -308.00), ( 1045.00, -278.00)  62700.00  
+internal:   4180 x 60      ( -2090, -616  ), (  2090, -556  )  250800    
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-9.600, -3.080), (-9.300, -2.780)  0.090     
+lambda:    30.00 x 30.00   (-960.00, -308.00), (-930.00, -278.00)  900.00    
+internal:     60 x 60      ( -1920, -616  ), ( -1860, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-7.600, -3.080), (-7.300, -2.780)  0.090     
+lambda:    30.00 x 30.00   (-760.00, -308.00), (-730.00, -278.00)  900.00    
+internal:     60 x 60      ( -1520, -616  ), ( -1460, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-5.600, -3.080), (-5.300, -2.780)  0.090     
+lambda:    30.00 x 30.00   (-560.00, -308.00), (-530.00, -278.00)  900.00    
+internal:     60 x 60      ( -1120, -616  ), ( -1060, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-3.600, -3.080), (-3.300, -2.780)  0.090     
+lambda:    30.00 x 30.00   (-360.00, -308.00), (-330.00, -278.00)  900.00    
+internal:     60 x 60      (  -720, -616  ), (  -660, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   (-1.600, -3.080), (-1.300, -2.780)  0.090     
+lambda:    30.00 x 30.00   (-160.00, -308.00), (-130.00, -278.00)  900.00    
+internal:     60 x 60      (  -320, -616  ), (  -260, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 0.400, -3.080), ( 0.700, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 40.00, -308.00), ( 70.00, -278.00)  900.00    
+internal:     60 x 60      (    80, -616  ), (   140, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 2.400, -3.080), ( 2.700, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 240.00, -308.00), ( 270.00, -278.00)  900.00    
+internal:     60 x 60      (   480, -616  ), (   540, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 4.400, -3.080), ( 4.700, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 440.00, -308.00), ( 470.00, -278.00)  900.00    
+internal:     60 x 60      (   880, -616  ), (   940, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 6.400, -3.080), ( 6.700, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 640.00, -308.00), ( 670.00, -278.00)  900.00    
+internal:     60 x 60      (  1280, -616  ), (  1340, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 8.400, -3.080), ( 8.700, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 840.00, -308.00), ( 870.00, -278.00)  900.00    
+internal:     60 x 60      (  1680, -616  ), (  1740, -556  )  3600      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.300 x 0.300   ( 10.150, -3.080), ( 10.450, -2.780)  0.090     
+lambda:    30.00 x 30.00   ( 1015.00, -308.00), ( 1045.00, -278.00)  900.00    
+internal:     60 x 60      (  2030, -616  ), (  2090, -556  )  3600      
+Moving label "GATE" from space to locali in cell (UNNAMED).
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   (-9.420, -2.830), (-8.820, -1.830)  0.600     
+lambda:    60.00 x 100.00  (-942.00, -283.00), (-882.00, -183.00)  6000.00   
+internal:    120 x 200     ( -1884, -566  ), ( -1764, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   (-7.140, -2.830), (-6.540, -1.830)  0.600     
+lambda:    60.00 x 100.00  (-714.00, -283.00), (-654.00, -183.00)  6000.00   
+internal:    120 x 200     ( -1428, -566  ), ( -1308, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   (-4.860, -2.830), (-4.260, -1.830)  0.600     
+lambda:    60.00 x 100.00  (-486.00, -283.00), (-426.00, -183.00)  6000.00   
+internal:    120 x 200     (  -972, -566  ), (  -852, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   (-2.580, -2.830), (-1.980, -1.830)  0.600     
+lambda:    60.00 x 100.00  (-258.00, -283.00), (-198.00, -183.00)  6000.00   
+internal:    120 x 200     (  -516, -566  ), (  -396, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   (-0.300, -2.830), ( 0.300, -1.830)  0.600     
+lambda:    60.00 x 100.00  (-30.00, -283.00), ( 30.00, -183.00)  6000.00   
+internal:    120 x 200     (   -60, -566  ), (    60, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   ( 1.980, -2.830), ( 2.580, -1.830)  0.600     
+lambda:    60.00 x 100.00  ( 198.00, -283.00), ( 258.00, -183.00)  6000.00   
+internal:    120 x 200     (   396, -566  ), (   516, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   ( 4.260, -2.830), ( 4.860, -1.830)  0.600     
+lambda:    60.00 x 100.00  ( 426.00, -283.00), ( 486.00, -183.00)  6000.00   
+internal:    120 x 200     (   852, -566  ), (   972, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   ( 6.540, -2.830), ( 7.140, -1.830)  0.600     
+lambda:    60.00 x 100.00  ( 654.00, -283.00), ( 714.00, -183.00)  6000.00   
+internal:    120 x 200     (  1308, -566  ), (  1428, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.600 x 1.000   ( 8.820, -2.830), ( 9.420, -1.830)  0.600     
+lambda:    60.00 x 100.00  ( 882.00, -283.00), ( 942.00, -183.00)  6000.00   
+internal:    120 x 200     (  1764, -566  ), (  1884, -366  )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.170 x 0.720   (-8.105,  1.730), (-7.935,  2.450)  0.122     
+lambda:    17.00 x 72.00   (-810.50,  173.00), (-793.50,  245.00)  1224.00   
+internal:     34 x 144     ( -1621,  346  ), ( -1587,  490  )  4896      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.170 x 0.720   (-3.525,  1.730), (-3.355,  2.450)  0.122     
+lambda:    17.00 x 72.00   (-352.50,  173.00), (-335.50,  245.00)  1224.00   
+internal:     34 x 144     (  -705,  346  ), (  -671,  490  )  4896      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.170 x 0.720   ( 1.055,  1.730), ( 1.225,  2.450)  0.122     
+lambda:    17.00 x 72.00   ( 105.50,  173.00), ( 122.50,  245.00)  1224.00   
+internal:     34 x 144     (   211,  346  ), (   245,  490  )  4896      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.170 x 0.720   ( 5.635,  1.730), ( 5.805,  2.450)  0.122     
+lambda:    17.00 x 72.00   ( 563.50,  173.00), ( 580.50,  245.00)  1224.00   
+internal:     34 x 144     (  1127,  346  ), (  1161,  490  )  4896      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.170 x 0.720   ( 10.215,  1.730), ( 10.385,  2.450)  0.122     
+lambda:    17.00 x 72.00   ( 1021.50,  173.00), ( 1038.50,  245.00)  1224.00   
+internal:     34 x 144     (  2043,  346  ), (  2077,  490  )  4896      
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.170 x -0.720  (-10.395, -1.730), (-10.225, -2.450)
+lambda:    17.00 x -72.00  (-1039.50, -173.00), (-1022.50, -245.00)
+internal:     34 x -144    ( -2079, -346  ), ( -2045, -490  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.170 x -0.720  (-5.815, -1.730), (-5.645, -2.450)
+lambda:    17.00 x -72.00  (-581.50, -173.00), (-564.50, -245.00)
+internal:     34 x -144    ( -1163, -346  ), ( -1129, -490  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.170 x -0.720  (-1.235, -1.730), (-1.065, -2.450)
+lambda:    17.00 x -72.00  (-123.50, -173.00), (-106.50, -245.00)
+internal:     34 x -144    (  -247, -346  ), (  -213, -490  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.170 x -0.720  ( 3.345, -1.730), ( 3.515, -2.450)
+lambda:    17.00 x -72.00  ( 334.50, -173.00), ( 351.50, -245.00)
+internal:     34 x -144    (   669, -346  ), (   703, -490  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.170 x -0.720  ( 7.925, -1.730), ( 8.095, -2.450)
+lambda:    17.00 x -72.00  ( 792.50, -173.00), ( 809.50, -245.00)
+internal:     34 x -144    (  1585, -346  ), (  1619, -490  )
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.000 x 20.000  (-10.000, -10.000), ( 10.000,  10.000)  400.000   
+lambda:   2000.00 x 2000.00  (-1000.00, -1000.00), ( 1000.00,  1000.00)  4000000.00
+internal:   4000 x 4000    ( -2000, -2000 ), (  2000,  2000 )  16000000  
+Now the origin is:
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  20.900 x 7.300   ( 0.600, -0.300), ( 21.500,  7.000)  152.570   
+lambda:   2090.00 x 730.00  ( 60.00, -30.00), ( 2150.00,  700.00)  1525700.00
+internal:   4180 x 1460    (   120, -60   ), (  4300,  1400 )  6102800   
+Generating LEF output sky130_asc_nfet_01v8_lvt_9.lef for cell sky130_asc_nfet_01v8_lvt_9:
+Diagnostic:  Write LEF header for cell sky130_asc_nfet_01v8_lvt_9
+Diagnostic:  Writing LEF output for cell sky130_asc_nfet_01v8_lvt_9
+Diagnostic:  Scale value is 0.005000
+   Generating output for cell sky130_asc_nfet_01v8_lvt_9
+Extracting sky130_asc_nfet_01v8_lvt_9 into sky130_asc_nfet_01v8_lvt_9.ext:
+exttospice finished.

@@ -1,0 +1,25 @@
+* NGSPICE file created from sky130_asc_cap_mim_m3_1.ext - technology: sky130A
+
+.subckt sky130_asc_cap_mim_m3_1 Cin Cout VPWR VGND
+X0 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X1 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X2 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X3 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X4 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X5 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X6 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X7 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X8 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X9 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X10 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X11 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X12 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X13 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X14 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X15 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X16 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X17 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X18 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X19 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+.ends
+

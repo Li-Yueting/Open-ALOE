@@ -1,0 +1,87 @@
+New file is:  /home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/gds//home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/view-standard/stdcells.gds
+Creating magic generation script to generate GDS library.
+***************
+/home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/gds/generate_magic.tcl
+Running magic to create GDS library.
+
+Magic 8.3 revision 315 - Compiled on Fri Jul  1 15:21:12 PDT 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/gds/generate_magic.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_nfet_01v8_lvt_1
+Reading "sky130_asc_nfet_01v8_lvt_1".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_nfet_01v8_lvt_9
+Reading "sky130_asc_nfet_01v8_lvt_9".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_pfet_01v8_lvt_1
+Reading "sky130_asc_pfet_01v8_lvt_1".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_pfet_01v8_lvt_6
+Reading "sky130_asc_pfet_01v8_lvt_6".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_pfet_01v8_lvt_9
+Reading "sky130_asc_pfet_01v8_lvt_9".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_pfet_01v8_lvt_12
+Reading "sky130_asc_pfet_01v8_lvt_12".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_asc_pfet_01v8_lvt_60
+Reading "sky130_asc_pfet_01v8_lvt_60".
+Creating cell /home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/view-standard/stdcells
+Creating new cell
+Adding cells to library
+Writing GDS library /home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/view-standard/stdcells
+   Generating output for cell sky130_asc_pfet_01v8_lvt_60
+   Generating output for cell sky130_asc_pfet_01v8_lvt_12
+   Generating output for cell sky130_asc_pfet_01v8_lvt_9
+   Generating output for cell sky130_asc_pfet_01v8_lvt_6
+   Generating output for cell sky130_asc_pfet_01v8_lvt_1
+   Generating output for cell sky130_asc_nfet_01v8_lvt_9
+   Generating output for cell sky130_asc_nfet_01v8_lvt_1
+   Generating output for cell stdcells
+Done.
+Error message output from magic:
+File /home/users/lyt1314/SUMMER/aloe-sky130/stem_cell_generator/outputs/stem-cell-library/view-standard/stdcells.mag couldn't be read
+No such file or directory
+Done.
+****************************************************************
+Merging individual files into view-standard/stdcells.*
+now merging file: ./gds/sky130_asc_nfet_01v8_lvt_1.gds
+now merging file: ./gds/sky130_asc_pfet_01v8_lvt_1.gds
+now merging file: ./gds/sky130_asc_pfet_01v8_lvt_6.gds
+now merging file: ./gds/sky130_asc_pfet_01v8_lvt_60.gds
+now merging file: ./gds/sky130_asc_pfet_01v8_lvt_9.gds
+now merging file: ./gds/sky130_asc_nfet_01v8_lvt_9.gds
+now merging file: ./gds/sky130_asc_pfet_01v8_lvt_12.gds
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_nfet_01v8_lvt_1.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_pfet_01v8_lvt_1.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_pfet_01v8_lvt_60.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_pfet_01v8_lvt_12.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_nfet_01v8_lvt_9.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_pfet_01v8_lvt_6.lef
+now merging file: ./outputs/stem-cell-library/lef/sky130_asc_pfet_01v8_lvt_9.lef
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_pfet_01v8_lvt_1.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_pfet_01v8_lvt_60.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_nfet_01v8_lvt_9.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_pfet_01v8_lvt_12.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_nfet_01v8_lvt_1.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_pfet_01v8_lvt_9.spice
+now merging file: ./outputs/stem-cell-library/spi/sky130_asc_pfet_01v8_lvt_6.spice

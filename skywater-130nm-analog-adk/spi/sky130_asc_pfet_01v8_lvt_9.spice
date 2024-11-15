@@ -1,0 +1,14 @@
+* NGSPICE file created from sky130_asc_pfet_01v8_lvt_9.ext - technology: sky130A
+
+.subckt sky130_asc_pfet_01v8_lvt_9 GATE SOURCE DRAIN VGND VPWR
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=9.3525e+12p pd=6.74e+07u as=9.3525e+12p ps=6.74e+07u w=6.45e+06u l=2e+06u
+X1 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X2 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X3 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X4 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X5 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X6 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X7 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X8 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+.ends
+

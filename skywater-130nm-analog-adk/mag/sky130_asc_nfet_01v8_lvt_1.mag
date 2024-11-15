@@ -1,0 +1,94 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1654748597
+<< pwell >>
+rect 120 30 734 1426
+<< nmoslvt >>
+rect 276 600 676 1400
+<< ndiff >>
+rect 218 1388 276 1400
+rect 218 612 230 1388
+rect 264 612 276 1388
+rect 218 600 276 612
+rect 676 1388 734 1400
+rect 676 612 688 1388
+rect 722 612 734 1388
+rect 676 600 734 612
+<< ndiffc >>
+rect 230 612 264 1388
+rect 688 612 722 1388
+<< psubdiff >>
+rect 158 160 198 200
+rect 158 80 198 120
+<< psubdiffcont >>
+rect 158 120 198 160
+<< poly >>
+rect 276 1400 676 1426
+rect 276 574 676 600
+rect 424 384 544 574
+rect 298 364 734 384
+rect 298 304 388 364
+rect 448 304 734 364
+rect 298 284 734 304
+<< polycont >>
+rect 388 304 448 364
+<< locali >>
+rect 120 1850 388 1910
+rect 448 1850 734 1910
+rect 218 1690 734 1750
+rect 687 1404 721 1690
+rect 230 1388 264 1404
+rect 229 612 230 654
+rect 687 1388 722 1404
+rect 687 1386 688 1388
+rect 229 596 264 612
+rect 688 596 722 612
+rect 229 530 263 596
+rect 218 470 734 530
+rect 298 304 388 364
+rect 448 304 734 364
+rect 148 160 208 240
+rect 148 120 158 160
+rect 198 120 208 160
+rect 148 30 208 120
+rect 120 -30 388 30
+rect 448 -30 734 30
+<< viali >>
+rect 388 1850 448 1910
+rect 230 612 264 1388
+rect 688 612 722 1388
+rect 388 -30 448 30
+<< metal1 >>
+rect 120 1910 734 1940
+rect 120 1850 388 1910
+rect 448 1850 734 1910
+rect 120 1820 734 1850
+rect 224 1388 270 1400
+rect 224 612 230 1388
+rect 264 612 270 1388
+rect 224 600 270 612
+rect 682 1388 728 1400
+rect 682 612 688 1388
+rect 722 612 728 1388
+rect 682 600 728 612
+rect 120 30 734 60
+rect 120 -30 388 30
+rect 448 -30 734 30
+rect 120 -60 734 -30
+<< labels >>
+flabel metal1 218 1850 278 1910 1 FreeSans 800 0 0 0 VPWR
+port 4 n power bidirectional
+flabel metal1 218 -30 278 30 1 FreeSans 800 0 0 0 VGND
+port 5 n ground bidirectional
+flabel locali 674 1690 734 1750 1 FreeSans 800 0 0 0 SOURCE
+port 2 n default bidirectional
+flabel locali 674 470 734 530 1 FreeSans 800 0 0 0 DRAIN
+port 3 n default bidirectional
+flabel locali 674 304 734 364 1 FreeSans 800 0 0 0 GATE
+port 1 n default bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 854 1880
+string LEFclass CORE
+string LEFsite unitasc
+<< end >>

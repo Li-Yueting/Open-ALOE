@@ -1,0 +1,26 @@
+timestamp 1653547684
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pnp_05v5 a2=area
+port "VGND" 5 120 -30 180 30 m1
+port "VPWR" 4 120 1850 180 1910 m1
+port "Emitter" 1 682 1010 910 1140 li
+port "Base" 2 894 1372 1014 1412 li
+port "Collector" 3 930 1524 1050 1564 li
+node "VGND" 287 1122.91 120 -30 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80400 2800 160800 2920 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 287 1418.39 120 1850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80400 2800 160800 2920 0 0 0 0 0 0 0 0 0 0
+node "xm1/Emitter" 210 -163.668 450 600 pdif 0 0 0 0 0 0 0 0 0 0 462400 2720 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 481636 2776 372100 2440 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Emitter" "Emitter"
+node "xm1/Base" 6298 1998.32 273 423 pnp 0 0 0 0 0 0 0 0 256320 7120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256320 7120 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Base" "Base"
+substrate "xm1/Collector" 0 0 146 296 ppd 0 0 0 0 0 0 0 0 0 0 479548 9496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470844 9512 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "xm1/Collector" "Collector"
+cap "xm1/Emitter" "VGND" 73.6612
+cap "xm1/Base" "VPWR" 80.1525
+cap "xm1/Emitter" "VPWR" 73.6612
+cap "xm1/Base" "VGND" 80.1525
+cap "xm1/Base" "xm1/Emitter" 1253.68
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 273 423 274 424 "None" "xm1/Base" 0 0 "xm1/Emitter" 0 0 "xm1/Collector" 0 0
